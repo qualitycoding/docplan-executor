@@ -57,3 +57,7 @@ npm run lint      # TypeScript type check (tsc --noEmit); there is no unit test 
 - **Local task state**: your task edits are saved in the browser's `localStorage` (tasks only, never tokens), so they stay on one browser and are not synced anywhere.
 - **In-Memory Token Lifecycle**: OAuth access tokens are stored strictly in memory and cleared on sign-out or session end. Tokens are never persisted to localStorage or sessionStorage.
 - **User Confirmation**: All write operations to Google Drive (folder creation and Google Docs export) require explicit user confirmation before executing.
+
+## Licence
+
+Apache License 2.0. See [LICENSE](LICENSE).
